@@ -1,5 +1,8 @@
 # BooksInventory
-DWP 2nd Interview - Automation Project
+DWP - Automation Project
+
+
+**** All positive and negative workflows are available under BooksInventory/src/test ****
 
 **** Steps to Run the Automation Suite ****
 
