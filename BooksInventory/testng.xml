@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BooksInventory">
+
+ <parameter name="URL" value="https://applicationforlibrarymanagementsystem.onrender.com/login"></parameter>
+ <parameter name="name" value="admin1"></parameter>
+ <parameter name="pass" value="securePassword"></parameter>
+ <parameter name="invalidname" value="admin0"></parameter>
+ <parameter name="invalidpass" value="secure"></parameter>
+
+	
+  <test name="Test">
+    <classes>   
+	  <class name="test.BooksInventory_All_Positive_Workflows"/>
+      <class name="test.BooksInventory_Negative_Workflows"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
