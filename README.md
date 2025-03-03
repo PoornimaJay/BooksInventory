@@ -1,6 +1,7 @@
 # BooksInventory
 DWP - Automation Project
 
+****To clone this project please use https://github.com/PoornimaJay/BooksInventory.git ****
 
 **** All positive and negative workflows are available under BooksInventory/src/test ****
 
